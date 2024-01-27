@@ -1,0 +1,1 @@
+print(''.join(map(lambda x: x[0], sorted(input().split(), key=lambda x: int(x[1:])))))
